@@ -1,1 +1,18 @@
 my name is Amir
+<Modal
+            show={modalIsOpen}
+            // onHide={closeKlimoModal}
+            className="modalstylechange_Leave"
+            contentLabel="Example Modal"
+            ariaHideApp={false}
+          >
+            {/* <LeavePolicy /> */}
+
+            <button
+              className="leaveapplyBtn leaveCnlbtn"
+              onClick={() => setModalIsOpen(false)}
+            >
+              <span>&#10006;</span>
+            </button>
+            {/* </div> */}
+          </Modal>
